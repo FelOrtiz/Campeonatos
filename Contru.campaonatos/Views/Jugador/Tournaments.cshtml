@@ -1,0 +1,578 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Share/_JugadorLayout.cshtml";
+}
+
+<br />
+<div class="row">
+    <div class="large-12 small-12 columns">
+        <h3>Selecciona un campeonato</h3>
+        <select>
+            <option value="camp1">Campeonato 1</option>
+            <option value="camp2">Campeonato 2</option>
+            <option value="camp3">Campeonato 3</option>
+            <option value="camp4">Campeonato 4</option>
+        </select>
+    </div>
+</div>
+
+<div class="row" data-equalizer="row1">
+    <div class="large-8 small-12 columns">
+        <div class="card" data-equalizer-watch="row1">
+            <div class="action_title">
+                <div class="large-9 small-7 columns" style="padding-left: 0;">
+                    <span class="title_small hide-for-small">Noticias</span>
+                    <span class="title_tiny show-for-small">Noticias</span>
+                </div>
+                <div class="large-3 small-5 columns" style="padding-right: 0;">
+                    <ul class="button-group radius even-2">
+                        <li><a href="#" class="button tiny text-center"><i class="fi-arrow-left size-14"></i></a></li>
+                        <li><a href="#" class="button tiny text-center"><i class="fi-arrow-right size-14"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="content_table">
+                <div class="row">
+                    <div class="large-9 medium-10 small-8 columns">
+                        <p>
+                            Tenemos una declaraci&#243;n del jugador <strong>Yerco N&#250;&#241;ez</strong> acerca del choque que tuvo en la ciudad de Santiago.
+                            <blockquote>
+                                Si fueron tres 'chelas' no ma'...
+                                <cite>Yerco N&#250;&#241;ez</cite>
+                            </blockquote>
+                        </p>
+                    </div>
+                    <div class="large-3 medium-2 small-4 columns text-right">
+                        <p class="button radius tiny info ">Ver</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="content_table">
+                <div class="row">
+                    <div class="large-9 medium-10 small-8 columns">
+                        <p>
+                            <strong>Universidad de Chile</strong> ha quedado primero en la tabla luego de haberle ganado a
+                            <strong>O&#39;Higgins</strong> por dos tantos a cero
+                        </p>
+                    </div>
+                    <div class="large-3 medium-2 small-4 columns text-right">
+                        <td><p class="button radius tiny info ">Ver</p></td>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </div>
+        <br class="hide-for-large">
+    </div>
+    <div class="large-4 small-12 columns">
+        <div class="card" data-equalizer-watch="row1">
+            <div class="action_title">
+                <div class="large-6 small-7 columns" style="padding-left: 0;">
+                    <span class="title_small hide-for-small">Goleadores</span>
+                    <span class="title_tiny show-for-small">Goleadores</span>
+                </div>
+                <div class="large-6 small-5 columns" style="padding-right: 0;">
+                    <ul class="button-group radius even-2">
+                        <li><a href="#" class="button tiny text-center"><i class="fi-arrow-left size-14"></i></a></li>
+                        <li><a href="#" class="button tiny text-center"><i class="fi-arrow-right size-14"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="content_table">
+                <center>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th width="50" data-tooltip aria-haspopup="true" class="tip-top radius" title="Equipo">EQ.</th>
+                                <th width="500" data-tooltip aria-haspopup="true" class="tip-top radius" title="Puntos">Jugador</th>
+                                <th width="60" data-tooltip aria-haspopup="true" class="tip-top radius" title="Goles"><center><i class="ionicons ion-ios-football size-18 style5"></i></center></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><img src="~/Content/Foundation/img/eqs/uchile.png" width="25" height="25" align="middle" data-tooltip aria-haspopup="true" class="tip-left radius" title="U. de Chile"></td>
+                                <td>Nombre Apellido</td>
+                                <td><center><strong>7</strong></center></td>
+                            </tr>
+                            <tr>
+                                <td><img src="~/Content/Foundation/img/eqs/ucato.png" width="25" height="25" align="middle" data-tooltip aria-haspopup="true" class="tip-left radius" title="U. Católica"></td>
+                                <td>Nombre Apellido</td>
+                                <td><center><strong>6</strong></center></td>
+                            </tr>
+                            <tr>
+                                <td><img src="~/Content/Foundation/img/eqs/ohiggins.png" width="25" height="25" align="middle" data-tooltip aria-haspopup="true" class="tip-left radius" title="O'Higgins"></td>
+                                <td>Nombre Apellido</td>
+                                <td><center><strong>4</strong></center></td>
+                            </tr>
+                            <tr>
+                                <td><img src="~/Content/Foundation/img/eqs/uchile.png" width="25" height="25" align="middle" data-tooltip aria-haspopup="true" class="tip-left radius" title="U. de Chile"></td>
+                                <td>Nombre Apellido</td>
+                                <td><center><strong>4</strong></center></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </center>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br />
+<div class="row">
+    <div class="large-12 small-12 columns">
+        <div class="card">
+            <div class="action_title">
+                <div class="large-10 small-7 columns" style="padding-left: 0;">
+                    <span class="title_small hide-for-small">Pr&#243;ximos partidos</span>
+                    <span class="title_tiny show-for-small">Pr&#243;ximos partidos</span>
+                </div>
+                <div class="large-2 small-5 columns" style="padding-right: 0;">
+                    <ul class="button-group radius even-2">
+                        <li><a href="#" class="button tiny text-center"><i class="fi-arrow-left size-14"></i></a></li>
+                        <li><a href="#" class="button tiny text-center"><i class="fi-arrow-right size-14"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+
+            <div class="row collapse">
+                <div class="large-6 small-12 columns">
+                    <div class="event">
+                        <div class="event-date">
+                            <p class="event-month">Sept</p>
+                            <p class="event-day">3</p>
+                        </div>
+
+                        <div class="event-desc">
+                            <h4 class="event-desc-header">Palestino vs Santiago Wanderer</h4>
+                            <span class="event-desc-time">17:00</span>
+                            <p class="event-desc-detail">Estadio Nacional.</p>
+                            <a href="#" class="rsvp radius button small">Más detalles</a>
+                        </div>
+                    </div>
+                </div>
+                <hr class="hide-for-large">
+                <div class="large-6 small-12 columns">
+                    <div class="event">
+                        <div class="event-date">
+                            <p class="event-month">Sept</p>
+                            <p class="event-day">10</p>
+                        </div>
+
+                        <div class="event-desc">
+                            <h4 class="event-desc-header">Audax Italiano vs Cobresal</h4>
+                            <span class="event-desc-time">14:00</span>
+                            <p class="event-desc-detail">Estadio Bicentenario de la Florida.</p>
+                            <a href="#" class="rsvp radius button small">Más detalles</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row collapse">
+                <div class="large-6 small-12 columns">
+                    <div class="event">
+                        <div class="event-date">
+                            <p class="event-month">Sept</p>
+                            <p class="event-day">18</p>
+                        </div>
+
+                        <div class="event-desc">
+                            <h4 class="event-desc-header">Universidad de Chile vs Rangers de Talca</h4>
+                            <span class="event-desc-time">20:00</span>
+                            <p class="event-desc-detail">Estadio Fiscal de Talca.</p>
+                            <a href="#" class="rsvp radius button small">Más detalles</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="large-6 small-12 columns show-for-large">
+                    <div class="event">
+                        <div class="event-date">
+                            <p class="event-month">Sept</p>
+                            <p class="event-day">27</p>
+                        </div>
+
+                        <div class="event-desc">
+                            <h4 class="event-desc-header">Universidad de Concepci&#243;n vs Universidad Cat&#243;lica</h4>
+                            <span class="event-desc-time">12:00</span>
+                            <p class="event-desc-detail">Estadio San Carlos de Apoquindo.</p>
+                            <a href="#" class="rsvp radius button small">Más detalles</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br />
+<div class="row">
+    <div class="large-12 small-12 columns">
+        <div class="card">
+            <div class="action_title">
+                <div class="large-10 small-7 columns" style="padding-left: 0; padding-right: 0;">
+                    <span class="title_small hide-for-small">Tabla de posiciones</span>
+                    <span class="title_tiny show-for-small">Tabla de posiciones</span>
+                </div>
+                <div class="large-2 small-5 columns" style="padding-right: 0;">
+                    <ul class="button-group radius even-2">
+                        <li><a href="#" class="button tiny text-center"><i class="fi-arrow-left size-14"></i></a></li>
+                        <li><a href="#" class="button tiny text-center"><i class="fi-arrow-right size-14"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="content_table">
+                <center>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th width="50" data-tooltip aria-haspopup="true" class="tip-top radius" title="Posición">Pos.</th>
+                                <th width="500">Equipo</th>
+                                <th width="50" data-tooltip aria-haspopup="true" class="tip-top radius" title="Puntos">PTS</th>
+                                <th width="50" class="hide-for-small tip-top radius" data-tooltip aria-haspopup="true" title="Partidos jugados">PJ</th>
+                                <th width="50" class="hide-for-small tip-top radius" data-tooltip aria-haspopup="true" title="Partidos ganados">PG</th>
+                                <th width="50" class="hide-for-small tip-top radius" data-tooltip aria-haspopup="true" title="Partidos empatados">PE</th>
+                                <th width="50" class="hide-for-small tip-top radius" data-tooltip aria-haspopup="true" title="Partidos perdidos">PP</th>
+                                <th width="50" class="hide-for-small tip-top radius" data-tooltip aria-haspopup="true" title="Goles a favor">GF</th>
+                                <th width="50" class="hide-for-small tip-top radius" data-tooltip aria-haspopup="true" title="Goles en contra">GC</th>
+                                <th width="50" class="hide-for-small tip-top radius" data-tooltip aria-haspopup="true" title="Diferencia de goles">DIF</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><center>1.</center></td>
+                                <!--<td></td>-->
+                                <td>
+                                    <div class="row collapse">
+                                        <img src="~/Content/Foundation/img/eqs/uchile.png" width="25" height="25" align="middle">
+                                        <span>U. de Chile</span>
+                                    </div>
+                                </td>
+                                <td><center>15</center></td>
+                                <td class="hide-for-small"><center>5</center></td>
+                                <td class="hide-for-small"><center>5</center></td>
+                                <td class="hide-for-small"><center>0</center></td>
+                                <td class="hide-for-small"><center>0</center></td>
+                                <td class="hide-for-small"><center>11</center></td>
+                                <td class="hide-for-small"><center>4</center></td>
+                                <td class="hide-for-small"><center>7</center></td>
+                            </tr>
+                            <tr>
+                                <td><center>2.</center></td>
+                                <!--<td></td>-->
+                                <td>
+                                    <div class="row collapse">
+                                        <img src="~/Content/Foundation/img/eqs/ohiggins.png" href="#" width="25" height="25" align="middle">
+                                        <span>O&#39;Higgins</span>
+                                    </div>
+                                </td>
+                                <td><center>10</center></td>
+                                <td class="hide-for-small"><center>5</center></td>
+                                <td class="hide-for-small"><center>3</center></td>
+                                <td class="hide-for-small"><center>1</center></td>
+                                <td class="hide-for-small"><center>1</center></td>
+                                <td class="hide-for-small"><center>11</center></td>
+                                <td class="hide-for-small"><center>6</center></td>
+                                <td class="hide-for-small"><center>5</center></td>
+                            </tr>
+                            <tr>
+                                <td><center>3.</center></td>
+                                <!--<td></td>-->
+                                <td>
+                                    <div class="row collapse">
+                                        <img src="~/Content/Foundation/img/eqs/ucato.png" href="#" width="25" height="25" align="middle">
+                                        <span>U. Cat&#243;lica</span>
+                                    </div>
+                                </td>
+                                <td><center>9</center></td>
+                                <td class="hide-for-small"><center>4</center></td>
+                                <td class="hide-for-small"><center>3</center></td>
+                                <td class="hide-for-small"><center>0</center></td>
+                                <td class="hide-for-small"><center>1</center></td>
+                                <td class="hide-for-small"><center>7</center></td>
+                                <td class="hide-for-small"><center>3</center></td>
+                                <td class="hide-for-small"><center>4</center></td>
+                            </tr>
+                            <tr>
+                                <td><center>4.</center></td>
+                                <!--<td></td>-->
+                                <td>
+                                    <div class="row collapse">
+                                        <img src="~/Content/Foundation/img/eqs/colo.png" href="#" width="25" height="25" align="middle">
+                                        <span>Colo-Colo</span>
+                                    </div>
+                                </td>
+                                <td><center>9</center></td>
+                                <td class="hide-for-small"><center>5</center></td>
+                                <td class="hide-for-small"><center>2</center></td>
+                                <td class="hide-for-small"><center>3</center></td>
+                                <td class="hide-for-small"><center>0</center></td>
+                                <td class="hide-for-small"><center>12</center></td>
+                                <td class="hide-for-small"><center>9</center></td>
+                                <td class="hide-for-small"><center>3</center></td>
+                            </tr>
+                            <tr>
+                                <td><center>5.</center></td>
+                                <!--<td></td>-->
+                                <td>
+                                    <div class="row collapse">
+                                        <img src="~/Content/Foundation/img/eqs/uconce.png" href="#" width="25" height="25" align="middle">
+                                        <span>U. Concepci&#243;n</span>
+                                    </div>
+                                </td>
+                                <td><center>8</center></td>
+                                <td class="hide-for-small"><center>5</center></td>
+                                <td class="hide-for-small"><center>2</center></td>
+                                <td class="hide-for-small"><center>2</center></td>
+                                <td class="hide-for-small"><center>1</center></td>
+                                <td class="hide-for-small"><center>10</center></td>
+                                <td class="hide-for-small"><center>8</center></td>
+                                <td class="hide-for-small"><center>2</center></td>
+                            </tr>
+                            <tr>
+                                <td><center>6.</center></td>
+                                <!--<td></td>-->
+                                <td>
+                                    <div class="row collapse">
+                                        <img src="~/Content/Foundation/img/eqs/rangers.png" href="#" width="25" height="25" align="middle">
+                                        <span>Rangers</span>
+                                    </div>
+                                </td>
+                                <td><center>8</center></td>
+                                <td class="hide-for-small"><center>5</center></td>
+                                <td class="hide-for-small"><center>2</center></td>
+                                <td class="hide-for-small"><center>2</center></td>
+                                <td class="hide-for-small"><center>1</center></td>
+                                <td class="hide-for-small"><center>7</center></td>
+                                <td class="hide-for-small"><center>5</center></td>
+                                <td class="hide-for-small"><center>2</center></td>
+                            </tr>
+                            <tr>
+                                <td><center>7.</center></td>
+                                <!--<td></td>-->
+                                <td>
+                                    <div class="row collapse">
+                                        <img src="~/Content/Foundation/img/eqs/palestino.png" href="#" width="25" height="25" align="middle">
+                                        <span>Palestino</span>
+                                    </div>
+                                </td>
+                                <td><center>7</center></td>
+                                <td class="hide-for-small"><center>5</center></td>
+                                <td class="hide-for-small"><center>2</center></td>
+                                <td class="hide-for-small"><center>1</center></td>
+                                <td class="hide-for-small"><center>2</center></td>
+                                <td class="hide-for-small"><center>8</center></td>
+                                <td class="hide-for-small"><center>6</center></td>
+                                <td class="hide-for-small"><center>2</center></td>
+                            </tr>
+                            <tr>
+                                <td><center>8.</center></td>
+                                <!--<td></td>-->
+                                <td>
+                                    <div class="row collapse">
+                                        <img src="~/Content/Foundation/img/eqs/santiagowan.png" href="#" width="25" height="25" align="middle">
+                                        <span>Santiago Wanderers</span>
+                                    </div>
+                                </td>
+                                <td><center>7</center></td>
+                                <td class="hide-for-small"><center>4</center></td>
+                                <td class="hide-for-small"><center>2</center></td>
+                                <td class="hide-for-small"><center>1</center></td>
+                                <td class="hide-for-small"><center>1</center></td>
+                                <td class="hide-for-small"><center>6</center></td>
+                                <td class="hide-for-small"><center>5</center></td>
+                                <td class="hide-for-small"><center>1</center></td>
+                            </tr>
+                            <tr>
+                                <td><center>9.</center></td>
+                                <!--<td></td>-->
+                                <td>
+                                    <div class="row collapse">
+                                        <img src="~/Content/Foundation/img/eqs/audax.png" href="#" width="25" height="25" align="middle">
+                                        <span>Audax Italiano</span>
+                                    </div>
+                                </td>
+                                <td><center>6</center></td>
+                                <td class="hide-for-small"><center>5</center></td>
+                                <td class="hide-for-small"><center>1</center></td>
+                                <td class="hide-for-small"><center>3</center></td>
+                                <td class="hide-for-small"><center>1</center></td>
+                                <td class="hide-for-small"><center>4</center></td>
+                                <td class="hide-for-small"><center>6</center></td>
+                                <td class="hide-for-small"><center>-2</center></td>
+                            </tr>
+                            <tr>
+                                <td><center>10.</center></td>
+                                <!--<td></td>-->
+                                <td>
+                                    <div class="row collapse">
+                                        <img src="~/Content/Foundation/img/eqs/unionesp.png" href="#" width="25" height="25" align="middle">
+                                        <span>Uni&#243;n Espa&#241;ola</span>
+                                    </div>
+                                </td>
+                                <td><center>5</center></td>
+                                <td class="hide-for-small"><center>5</center></td>
+                                <td class="hide-for-small"><center>1</center></td>
+                                <td class="hide-for-small"><center>2</center></td>
+                                <td class="hide-for-small"><center>2</center></td>
+                                <td class="hide-for-small"><center>6</center></td>
+                                <td class="hide-for-small"><center>9</center></td>
+                                <td class="hide-for-small"><center>-3</center></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </center>
+            </div>
+        </div>
+    </div>
+</div>
+<br />
+
+<div class="row">
+    <div class="large-12 small-12 columns">
+        <div class="card">
+            <div class="action_title">
+                <div class="large-10 small-7 columns" style="padding-left: 0;">
+                    <span class="title_small hide-for-small">Tabla de resultados</span>
+                    <span class="title_tiny show-for-small">Tabla de resultados</span>
+                </div>
+                <div class="large-2 small-5 columns" style="padding-right: 0;">
+                    <ul class="button-group radius even-2">
+                        <li><a href="#" class="button tiny text-center"><i class="fi-arrow-left size-14"></i></a></li>
+                        <li><a href="#" class="button tiny text-center"><i class="fi-arrow-right size-14"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="content_table">
+                <center>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th width="50" class="hide-for-small">Fecha</th>
+                                <th width="50" class="hide-for-small">Hora</th>
+                                <th width="150" class="show-for-large">Estadio</th>
+                                <th width="200" class="show-for-large">&#193;rbito</th>
+                                <th width="450" class="text-left">Local</th>
+                                <th width="80" data-tooltip aria-haspopup="true" title="Resultado" class="tip-top radius"><center>RES</center></th>
+                                <th width="450" class="text-right">Visita</th>
+                                <th width="50" class="hide-for-small text-center tip-top radius" data-tooltip aria-haspopup="true" title="Más información">Info</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="hide-for-small"><center><strong>30/08</strong></center></td>
+                                <td class="hide-for-small"><center><strong>18:30</strong></center></td>
+                                <td class="show-for-large">El Teniente</td>
+                                <td class="show-for-large">Juanito Pérez</td>
+                                <td>
+                                    <div class="row collapse">
+                                        <img src="~/Content/Foundation/img/eqs/ohiggins.png" href="#" width="25" height="25" align="middle">
+                                        <span class="success radius label">O&#39;Higgins</span>
+                                    </div>
+                                </td>
+                                <td><center><strong>3 - 1</strong></center></td>
+                                <td>
+                                    <div class="row collapse text-right">
+                                        <span class="alert radius label">SM Arica</span>
+                                        <img src="~/Content/Foundation/img/eqs/smarica.png" href="#" width="25" height="25" align="middle">
+                                    </div>
+                                </td>
+                                <td class="hide-for-small"><p href="#" data-reveal-id="partido1" class="button radius tiny info ">Ver</p></td>
+                            </tr>
+
+                            <tr>
+                                <td class="hide-for-small"><center><strong>30/08</strong></center></td>
+                                <td class="hide-for-small"><center><strong>12:30</strong></center></td>
+                                <td class="show-for-large">Santa Laura</td>
+                                <td class="show-for-large">Juanito Pérez</td>
+                                <td>
+                                    <div class="row collapse">
+                                        <img src="~/Content/Foundation/img/eqs/unionesp.png" href="#" width="25" height="25" align="middle">
+                                        <span class="success radius label">Uni&#243;n Espa&#241;ola</span>
+                                    </div>
+                                </td>
+                                <td><center><strong>2 - 0</strong></center></td>
+                                <td>
+                                    <div class="row collapse text-right">
+                                        <span class="alert radius label">U. Cat&#243;lica</span>
+                                        <img src="~/Content/Foundation/img/eqs/ucato.png" href="#" width="25" height="25" align="middle">
+                                    </div>
+                                </td>
+                                <td class="hide-for-small"><p class="button radius tiny info ">Ver</p></td>
+                            </tr>
+
+                            <tr>
+                                <td class="hide-for-small"><center><strong>28/08</strong></center></td>
+                                <td class="hide-for-small"><center><strong>20:00</strong></center></td>
+                                <td class="show-for-large">Nacional</td>
+                                <td class="show-for-large">Juanito Pérez</td>
+                                <td>
+                                    <div class="row collapse">
+                                        <img src="~/Content/Foundation/img/eqs/uchile.png" href="#" width="25" height="25" align="middle">
+                                        <span class="warning radius label">U. de Chile</span>
+                                    </div>
+                                </td>
+                                <td><center><strong>4 - 4</strong></center></td>
+                                <td>
+                                    <div class="row collapse text-right">
+                                        <span class="warning radius label">Palestino</span>
+                                        <img src="~/Content/Foundation/img/eqs/palestino.png" href="#" width="25" height="25" align="middle">
+                                    </div>
+                                </td>
+                                <td class="hide-for-small"><p class="button radius tiny info">Ver</p></td>
+                            </tr>
+
+                            <tr>
+                                <td class="hide-for-small"><center><strong>26/08</strong></center></td>
+                                <td class="hide-for-small"><center><strong>21:00</strong></center></td>
+                                <td class="show-for-large">Calvo y Bascu&#241;&#225;n</td>
+                                <td class="show-for-large">Juanito Pérez</td>
+                                <td>
+                                    <div class="row collapse">
+                                        <img src="~/Content/Foundation/img/eqs/antofa.png" href="#" width="25" height="25" align="middle">
+                                        <span class="alert radius label">Antofagasta</span>
+                                    </div>
+                                </td>
+                                <td><center><strong>0 - 1</strong></center></td>
+                                <td>
+                                    <div class="row collapse text-right">
+                                        <span class="success radius label">Colo-Colo</span>
+                                        <img src="~/Content/Foundation/img/eqs/colo.png" href="#" width="25" height="25" align="middle">
+                                    </div>
+                                </td>
+                                <td class="hide-for-small"><p class="button radius tiny info ">Ver</p></td>
+                            </tr>
+
+                            <tr>
+                                <td class="hide-for-small"><center><strong>23/08</strong></center></td>
+                                <td class="hide-for-small"><center><strong>15:00</strong></center></td>
+                                <td class="show-for-large">Municipal de Yumbel</td>
+                                <td class="show-for-large">Juanito Pérez</td>
+                                <td>
+                                    <div class="row collapse">
+                                        <img src="~/Content/Foundation/img/eqs/uconce.png" href="#" width="25" height="25" align="middle">
+                                        <span class="success radius label">U. Concepci&#243;n</span>
+                                    </div>
+                                </td>
+                                <td><center><strong>3 - 1</strong></center></td>
+                                <td>
+                                    <div class="row collapse text-right">
+                                        <span class="alert radius label">Cobresal</span>
+                                        <img src="~/Content/Foundation/img/eqs/cobresal.png" href="#" width="25" height="25" align="middle">
+                                    </div>
+                                </td>
+                                <td class="hide-for-small"><p class="button radius tiny info ">Ver</p></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </center>
+            </div>
+        </div>
+    </div>
+</div>
+<br />

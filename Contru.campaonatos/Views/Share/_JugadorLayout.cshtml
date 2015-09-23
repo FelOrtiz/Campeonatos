@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organizador de campeonatos</title>
+    <link rel="stylesheet" href="~/Content/Foundation/css/foundation.min.css">
+    <link rel="stylesheet" href="~/Content/Foundation/css/foundation-icons.css">
+    <link rel="stylesheet" href="~/Content/Foundation/css/ionicons.css">
+    <link rel="stylesheet" href="~/Content/Foundation/css/material-design-iconic-font.css">
+    <link rel="stylesheet" href="~/Content/Foundation/css/slippry.css">
+    <link rel="stylesheet" href="~/Content/Foundation/css/app.css">
+
+    <script src="~/Content/Foundation/js/vendor/modernizr.js"></script>
+    <script src="~/Content/Foundation/js/vendor/jquery.js"></script>
+    <script src="~/Content/Foundation/js/foundation.min.js"></script>
+    <script src="~/Content/Foundation/js/slippry.min.js"></script>
+
+    <link rel="shortcut icon" href="~/Content/Foundation/img/favicon.ico">
+
+
+</head>
+<body>
+    <nav class="top-bar" data-topbar="" role="navigation">
+        <ul class="title-area">
+            <!-- Title Area -->
+            <li class="name"><strong><h1><a href="@Url.Action("Index", "Jugador")">Campeonatos.cl</a></h1></strong></li>
+            <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+            <li class="toggle-topbar menu-icon"><a href=""><span></span></a></li>
+        </ul>
+        <section class="top-bar-section">
+            <!-- Left Nav Section -->
+            <ul class="left">
+                <li class="divider"></li>
+
+                <li class="has-form">
+                    <div class="row collapse hide-for-medium">
+                        <div class="large-8 small-9 columns">
+                            <input type="text" placeholder="Equipo, Jugador, etc.">
+                        </div>
+                        <div class="large-4 small-3 columns show-for-large">
+                            <button class="button" type="submit">Buscar</button>
+                        </div>
+                        <div class="large-4 small-3 columns show-for-small">
+                            <button class="button" type="submit"><i class="fi-magnifying-glass size-14"></i></button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <!-- Right Nav Section -->
+            <ul class="right">
+                <li>
+                    <a href="@Url.Action("Index", "Jugador")">Perfil</a>
+                </li>
+                <li>
+                    <a href="@Url.Action("Teams", "Jugador")">Equipos</a>
+                </li>
+                <li>
+                    <a href="@Url.Action("Tournaments", "Jugador")">Campeonatos</a>
+                </li>
+
+                <li class="divider"></li>
+                <li class="has-form">
+                    <a href="@Url.Action("Index", "Home")"  class="button alert radius">Cerrar sesión</a>
+                </li>
+            </ul>
+        </section>
+    </nav>
+    <div>
+        @RenderBody()
+    </div>
+    <div>
+        <footer class="footer">
+            <div class="row">
+                <div class="small-12 columns">
+                    <p class="links">
+                        <a href="home.html">Home</a>
+                        <a href="#">About</a>
+                        <a href="#">Faq</a>|
+                        <a href="#">Contact</a>
+                    </p>
+                    <p class="copywrite">Copywrite not copypwrite © 2015</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="~/Content/Foundation/js/vendor/modernizr.js"></script>
+    <script src="~/Content/Foundation/js/vendor/jquery.js"></script>
+    <script src="~/Content/Foundation/js/foundation.min.js"></script>
+    <script src="~/Content/Foundation/js/slippry.min.js"></script>
+    <script>$(document).foundation();</script>
+
+</body>
+</html>

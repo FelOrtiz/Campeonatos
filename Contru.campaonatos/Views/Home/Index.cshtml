@@ -1,0 +1,204 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Share/_MainLayout.cshtml";
+}
+
+<script>
+        $(function () {
+            $('#pictures-demo').slippry({
+                slippryWrapper: '<div class="sy-box pictures-slider" />',
+
+                // options
+                adaptiveHeight: false, // height of the sliders adapts to current slide
+                captions: 'overlay', // Position: overlay, below, custom, false
+
+                // pager
+                pager: false,
+
+                // controls
+                controls: false,
+                autoHover: false,
+
+                // transitions
+                transition: 'kenburns', // fade, horizontal, kenburns, false
+                kenZoom: 140,
+                speed: 2000 // time the transition takes (ms)
+            });
+        });
+</script>
+
+<ul id="pictures-demo">
+    <li>
+        <img src="~/Content/Foundation/img/slides/img4.jpg" alt="&lt;a class='btn' data-reveal-id='registerModal'&gt Registrarme! &lt;/a&gt">
+    </li>
+    <li>
+        <img src="~/Content/Foundation/img/slides/img5.jpg" alt="&lt;a class='btn' data-reveal-id='registerModal'&gt Registrarme! &lt;/a&gt">
+    </li>
+    <li>
+        <img src="~/Content/Foundation/img/slides/img3.jpg" alt="&lt;a class='btn' data-reveal-id='registerModal'&gt Registrarme! &lt;/a&gt">
+    </li>
+    <li>
+        <img src="~/Content/Foundation/img/slides/img1.jpg" alt="&lt;a class='btn' data-reveal-id='registerModal'&gt Registrarme! &lt;/a&gt">
+    </li>
+    <li>
+        <img src="~/Content/Foundation/img/slides/img2.jpg" alt="&lt;a class='btn' data-reveal-id='registerModal'&gt Registrarme! &lt;/a&gt;">
+    </li>
+</ul>
+
+<div class="row">
+    <br />
+    <h2 class="show-for-large">¿Qué es Campeonatos.cl?</h2>
+    <h3 class="text-center hide-for-large">¿Qué es Campeonatos.cl?</h3>
+    <hr />
+    <br class="hide-for-small">
+    <div class="row">
+        <div class="large-4 small-12 columns">
+            <div class="row">
+                <div class="large-3 small-2 columns">
+                    <i class="fi-trophy size-72 style5 hide-for-small text-center"></i>
+                    <i class="fi-trophy size-18 style5 show-for-small text-center"></i>
+                </div>
+                <div class="large-9 small-10 end columns">
+                    <h5>Organiza tu campeonato!</h5>
+                    <p class="text-justify hide-for-small">Eliminación directa, Fase de grupos, o una combinación de ambas. Puedes crear tu camponato como más te guste!</p>
+                </div>
+            </div>
+        </div>
+        <hr class="show-for-small" />
+        <div class="large-4 small-12 columns">
+            <div class="row">
+                <div class="large-3 small-2 columns">
+                    <i class="fi-clipboard-pencil style5 size-72 hide-for-small text-center"></i>
+                    <i class="fi-clipboard-pencil style5 size-18 show-for-small text-center"></i>
+                </div>
+                <div class="large-9 small-10 end columns">
+                    <h5>Crea tu equipo!</h5>
+                    <p class="text-justify hide-for-small">Busca a tus amigos, piensa un nombre, define la alineación, elige al capitán y listo!</p>
+                </div>
+            </div>
+        </div>
+        <hr class="show-for-small" />
+        <div class="large-4 small-12 columns">
+            <div class="row">
+                <div class="large-3 small-2 columns">
+                    <i class="fi-mobile-signal size-72 style5 hide-for-small text-center"></i>
+                    <i class="fi-mobile-signal size-18 style5 show-for-small text-center"></i>
+                </div>
+                <div class="large-9 small-10 end columns">
+                    <h5>Registra todo!</h5>
+                    <p class="text-justify hide-for-small">Mediante tu smartphone registra toda la información relevante de cada partido. Si, también los goles!.</p>
+                </div>
+            </div>
+        </div>
+        <hr class="show-for-small" />
+    </div>
+    <hr class="hide-for-small" />
+    <br class="hide-for-small" />
+    <div class="row">
+        <div class="large-4 small-12 columns">
+            <div class="row">
+                <div class="large-3 small-2 columns">
+                    <i class="fi-torso size-72 style5 hide-for-small text-center"></i>
+                    <i class="fi-torso size-18 style5 show-for-small text-center"></i>
+                </div>
+                <div class="large-9 small-10 end columns">
+                    <h5>Administra tu perfil!</h5>
+                    <p class="text-justify hide-for-small">Gestiona tus datos, revisa tus siguientes partidos, y analiza tus estadísticas!</p>
+                </div>
+            </div>
+        </div>
+        <hr class="show-for-small">
+        <div class="large-4 small-12 columns">
+            <div class="row">
+                <div class="large-3 small-2 columns">
+                    <i class="fi-list-number size-72 style5 hide-for-small text-center"></i>
+                    <i class="fi-list-number size-18 style5 show-for-small text-center"></i>
+                </div>
+                <div class="large-9 small-10 end columns">
+                    <h5>Revisa tus equipos!</h5>
+                    <p class="text-justify hide-for-small">¿En qué lugar va mi equipo? ¿Quién es el goleador del campeonato?. Podrás saber todo esto y más!</p>
+                </div>
+            </div>
+        </div>
+        <hr class="show-for-small" />
+        <div class="large-4 small-12 columns">
+            <div class="row">
+                <div class="large-3 small-2 columns">
+                    <i class="fi-dollar-bill size-72 style5 hide-for-small text-center"></i>
+                    <i class="fi-dollar-bill size-18 style5 show-for-small text-center"></i>
+                </div>
+                <div class="large-9 small-10 end columns">
+                    <h5>Totalmente gratis!</h5>
+                    <p class="text-justify hide-for-small">Obten acceso gratuito a todas las características de nuestra página, sólo con registrarte.</p>
+                </div>
+            </div>
+        </div>
+        <hr class="show-for-small" />
+    </div>
+    <hr class="hide-for-small" />
+</div>
+
+<div id="loginModal" class="reveal-modal small" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+    <form>
+        <h3>Ingreso</h3>
+
+        <div class="row collapse">
+            <div class="large-2 small-2 columns">
+                <span class="prefix"><i class="fi-mail size-21"></i></span>
+            </div>
+            <div class="large-10 small-10 columns">
+                <input placeholder="Email" required="required" type="text" name="user[email]" id="user_email"></input>
+            </div>
+        </div>
+        <div class="row collapse">
+            <div class="large-2 small-2 columns">
+                <span class="prefix"><i class="fi-lock size-21"></i></span>
+            </div>
+            <div class="large-10 small-10 columns">
+                <input placeholder="Password" rel="tooltip-focus" title="Debe contener al menos 8 caracteres. Al menos una letra, una mayúscula y un número" required="required" autocomplete="off" type="password" name="user[password]" id="user_password"></input>
+            </div>
+        </div>
+        <a class="small button radius" name="commit" type="submit" style='width: 100%;' href="@Url.Action("Index", "Jugador")"><large>Ingresar</large></a>
+    </form>
+    <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+</div>
+
+<div id="registerModal" class="reveal-modal small" style="visibility:hidden" data-reveal>
+    <form>
+        <h3>Registro</h3>
+        <div class="row collapse">
+            <div class="large-2 small-2 columns">
+                <span class="prefix"><i class="fi-torso size-21"></i></span>
+            </div>
+            <div class="large-10 small-10 columns">
+                <input placeholder="Nombre de usuario" required="required" type="text" name="user[username]" id="user_name"></input>
+            </div>
+        </div>
+        <div class="row collapse">
+            <div class="large-2 small-2 columns">
+                <span class="prefix"><i class="fi-mail size-21"></i></span>
+            </div>
+            <div class="large-10 small-10 columns">
+                <input placeholder="Email" required="required" type="text" name="user[email]" id="user_email"></input>
+            </div>
+        </div>
+        <div class="row collapse">
+            <div class="large-2 small-2 columns">
+                <span class="prefix"><i class="fi-lock size-21"></i></span>
+            </div>
+            <div class="large-10 small-10 columns">
+                <input placeholder="Password" rel="tooltip-focus" title="Debe contener al menos 8 caracteres. Al menos una letra, una mayúscula y un número" required="required" autocomplete="off" type="password" name="user[password]" id="user_password"></input>
+            </div>
+        </div>
+        <div class="row collapse">
+            <div class="large-2 small-2 columns">
+                <span class="prefix"><i class="fi-lock size-21"></i></span>
+            </div>
+            <div class="large-10 small-10 columns">
+                <input placeholder="Reingresar Password" rel="tooltip-focus" title="Debe contener al menos 8 caracteres. Al menos una letra, una mayúscula y un número" required="required" autocomplete="off" type="password" name="user[repassword]" id="user_password"></input>
+            </div>
+        </div>
+        <button class="small button radius" name="commit" type="submit" style='width: 100%;'>Registrarme</button>
+    </form>
+    <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+</div>	
